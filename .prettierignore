@@ -1,0 +1,10 @@
+/db/schema.rb
+/config/routes.rb
+/node_modules
+/public
+/tmp
+/log
+/.yarn
+/.DS_Store
+/.prettierignore
+/app/assets

@@ -1,0 +1,15 @@
+@import 'basscss.min.scss';
+@import 'normalize.converted.scss';
+@import '_variables';
+a {
+	color: transparent;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: $snow;
+	font-size: 1vw;
+}
+nav {
+	background-color: $ruby-red;
+	border-bottom: 1px solid $snow;
+}

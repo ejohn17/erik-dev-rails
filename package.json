@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "prettier": "prettier --write '**/*.{rb,js,json,md}'",
+    "prettier:check": "prettier --check '**/*.{rb,js,json,md}'"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "3.2.2",
+    "prettier": "2.8.8"
+  }
+}
