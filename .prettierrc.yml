@@ -7,15 +7,12 @@ singleQuote: true
 trailingComma: 'all'
 bracketSpacing: true
 arrowParens: 'always'
-plugins:
-  - '@prettier/plugin-ruby'
+# plugins:
+  # - '@prettier/plugin-ruby'
 overrides:
   - files: '*.rb'
     options:
       parser: ruby
-  - files: '*.js'
-    options:
-      parser: babel
   - files: '*.ts'
     options:
       parser: typescript

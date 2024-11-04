@@ -12,4 +12,13 @@ body {
 nav {
 	background-color: $ruby-red;
 	border-bottom: 1px solid $snow;
+	.brand-logo {
+		color: $snow;
+		i {
+			font-size: 2rem;
+		}
+	}
+}
+.nav-wrapper {
+	padding: 0 1rem;
 }
