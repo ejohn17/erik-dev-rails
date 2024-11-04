@@ -1,0 +1,62 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore SQLite database files
+/db/*.sqlite3
+/db/*.sqlite3-*
+
+# Ignore precompiled assets
+/public/assets
+
+# Ignore node modules
+node_modules
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore .env files
+.env*
+!.env.example
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore coverage files
+/coverage/
+
+# Ignore temp files
+*~
+*.swp
+*.swo
+
+# Ignore Spring files
+/spring/*.pid
+
+# Ignore RSpec state
+spec/examples.txt
+
+/yarn.lock
+/Gemfile.lock
